@@ -1,0 +1,26 @@
+ul {
+    gap: 24px;
+    list-style: none;
+    li {
+        border: 2px solid black;
+        padding: 8px 16px;
+        &:hover {
+            cursor: pointer;
+            background-color: aquamarine;
+        }
+    }
+}
+
+header, main, footer {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+section{
+    padding: 0 40px;
+}
+
+footer,ul, .top{
+    display: flex;
+    justify-content: center;
+}
